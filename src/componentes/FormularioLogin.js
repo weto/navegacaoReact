@@ -13,7 +13,7 @@ export class FormularioLogin extends Component {
 
   loginSistema(evento){
     evento.preventDefault(); 
-    if(this.state.login==="zup" && this.state.senha==="zup"){
+    if(this.state.login==="teste" && this.state.senha==="teste"){
       document.cookie = true;
       window.location.href = "http://localhost:3000/tecnologias";
     }
@@ -56,7 +56,7 @@ export class FormularioLogin extends Component {
                   <div className="login-button">
                     <button className="radios4px">Sign In</button>
                   </div>
-                  <p className="message">Usuário e Senha: zup</p>
+                  <p className="message">Usuário e Senha: teste</p>
                 </div>
               </form>
             </div>
